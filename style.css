@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(45deg, #070625, #151271);
+}
+
+.navbar {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2vw;
+  border-bottom: 1px solid rgb(133, 131, 131);
+}
+
+.heading {
+  color: #fff;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.plannetlist {
+  display: flex;
+  gap: 15px;
+}
+
+.plannetlist a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.ham {
+  height: 40px;
+  width: 50px;
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+}
+
+.ham div {
+  background-color: #fff;
+  height: 3px;
+  width: 40px;
+}
+
+.moblilenav {
+  display: none;
+  color: #fff;
+  height: 40px;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: 1px solid rgb(95, 93, 93);
+}
+
+.total {
+  display: flex;
+  width: 100%;
+}
+
+.planet {
+  width: 63%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#earth {
+  height: 300px;
+}
+
+.content {
+  margin-top: 40px;
+  width: 35%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+#title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.description {
+  height: 100px;
+  width: 270px;
+  margin-top: 15px;
+  line-height: 18px;
+  color: #c6c2c2;
+  font-size: 13px;
+  text-align: left;
+}
+
+#source {
+  font-size: 12px;
+  color: rgb(130, 127, 127);
+}
+
+#wikipedia {
+  color: rgb(158, 154, 154);
+  font-weight: 600;
+  font-size: 12px;
+}
+
+#arrow {
+  height: 12px;
+  width: 12px;
+  margin-bottom: -3px;
+}
+
+.list {
+  margin-top: 15px;
+  display: flex;
+  gap: 1vw;
+  font-size: 0.7rem;
+  flex-direction: column;
+}
+
+.list div {
+  color: #fff;
+  text-decoration: none;
+  height: 36px;
+  width: 280px;
+  padding: 10px 10px;
+  letter-spacing: 2px;
+  border: 1px solid rgb(148, 145, 145);
+  text-transform: uppercase;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 225px;
+  padding-left: 200px;
+}
+
+.bottom div {
+  height: 80px;
+  width: 200px;
+  border: 1px solid rgb(173, 173, 173);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.bottom p {
+  color: #605e5e;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.bottom span {
+  font-size: 23px;
+  color: #fff;
+}

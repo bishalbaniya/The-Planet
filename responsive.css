@@ -1,0 +1,59 @@
+@media (max-width: 425px) {
+  .main {
+    width: 100vw;
+    height: 100%;
+  }
+
+  .plannetlist {
+    display: none;
+  }
+
+  .ham {
+    display: flex;
+  }
+
+  .moblilenav {
+    display: flex;
+  }
+
+  .total {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .list {
+    display: none;
+  }
+
+  .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 230px;
+  }
+
+  .description {
+    width: 100%px;
+    height: 100px;
+    text-align: center;
+  }
+
+  .bottom {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 0;
+    gap: 10px;
+  }
+
+  .bottom div {
+    height: 40px;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+  }
+}
